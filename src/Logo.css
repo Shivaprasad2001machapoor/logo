@@ -1,0 +1,37 @@
+.rhombus {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    margin: 50px auto;
+    border: 5px solid transparent;
+    border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: green;
+    border-left-color: yellow;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    text-align: center;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.main-text {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.and-symbol {
+    color: red;
+}
+
+.sub-text {
+    margin: 0;
+    font-size: 12px;
+}
